@@ -18,25 +18,7 @@ function Checkout() {
 
         <div>
           <h2 className="checkout__title">Your Shopping Basket</h2>
-          <CheckoutProduct
-              id='10948'
-              title='test,this is a test this is a test this is a test this is a test this is a test this is a test this is a test'
-              image='https://pbs.twimg.com/profile_images/717759633356623872/YrCHpa0u_400x400.jpg'
-              price={239.99}
-              rating={5}
-            />
-            <CheckoutProduct
-              id='10948'
-              title='test,this is a test this is a test this is a test this is a test this is a test this is a test this is a test'
-              image='https://pbs.twimg.com/profile_images/717759633356623872/YrCHpa0u_400x400.jpg'
-              price={239.99}
-              rating={5}
-            />
-
-
-
-
-
+        
           {basket.map(item => (
             <CheckoutProduct
               id={item.id}
