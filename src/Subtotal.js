@@ -3,8 +3,11 @@ import "./Subtotal.css";
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from "./reducer";
+import { useHistory } from "react-router-dom";
+
 function Subtotal() {
 
+  const history = useHistory();
   const [{basket},dispatch] = useStateValue();
   return (
     <div className="subtotal">
@@ -28,7 +31,8 @@ function Subtotal() {
         thousandSeparator={true}
         prefix={"$"}
       />
-      <button className="subtotal__button">Proceed to Checkout</button>
+      <button onClick={e => history.push('/payment')} className="subtotal__button">Proceed to Checkout</button>
+      {/* this allows us to push user data without interupting the styling of the button at a given time programaticly */}
     </div>
   );
 }
