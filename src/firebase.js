@@ -2,14 +2,13 @@ import firebase from "firebase";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyA-_qe1tZLXJccbNztYjMaibYX3G3Z1s_0",
-  authDomain: "fir-84937.firebaseapp.com",
-  databaseURL: "https://fir-84937.firebaseio.com",
-  projectId: "fir-84937",
-  storageBucket: "fir-84937.appspot.com",
-  messagingSenderId: "692022410928",
-  appId: "1:692022410928:web:0eaaa6f338b22b5cc80575",
-  measurementId: "G-0GPLFQ26VT",
+  apiKey: "AIzaSyC_jE1GoI3AgnDtYR58P-gjErwEpGZ5UtY",
+  authDomain: "clone-b9929.firebaseapp.com",
+  databaseURL: "https://clone-b9929.firebaseio.com",
+  projectId: "clone-b9929",
+  storageBucket: "clone-b9929.appspot.com",
+  messagingSenderId: "873365064651",
+  appId: "1:873365064651:web:59ad7472881a21f41fc44e",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
