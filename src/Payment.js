@@ -143,8 +143,8 @@ function Payment() {
                   thousandSeparator={true}
                   prefix={"$"}
                 />
-                <button disabled={processing || disabled || succeeded}></button>
-                <span>{processing ? <p>Processing</p> : "Buy Now "}</span>
+                <button disabled={processing || disabled || succeeded}>Buy now</button>
+                <span>{processing ? <p>Processing</p> : ""}</span>
               </div>
               {error && <div>{error}</div>}
             </form>
