@@ -14,9 +14,9 @@ function Home() {
         <div className="home__row">
           <Product
             id="123456"
-            title="The lean Startup"
-            price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+            title="Sony Headphones"
+            price={99.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/71o8Q5XJS5L._AC_SX522_.jpg"
             rating={4}
           />
 
